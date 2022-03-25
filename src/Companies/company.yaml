@@ -1,0 +1,19 @@
+companies:
+  - id: 1
+    src: ../assets/images/companies/Nestle.png
+    alt: Nestle
+  - id: 2
+    src: ../assets/images/companies/Apple.png
+    alt: Apple
+  - id: 3
+    src: ../assets/images/companies/Beco.png
+    alt: Beco
+  - id: 4
+    src: ../assets/images/companies/Amazon.png
+    alt: Amazon
+  - id: 5
+    src: ../assets/images/companies/Google.png
+    alt: Google
+  - id: 6
+    src: ../assets/images/companies/Walmart.png
+    alt: Walmart

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@mixin btn-round {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  height: 64px;
+  border-radius: 32px;
+  // height: 64px;
+  // width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hello {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #eee;
+  cursor: pointer;
+}

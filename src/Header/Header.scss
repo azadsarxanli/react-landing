@@ -1,0 +1,44 @@
+@use "../App" as variable;
+
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 0 10%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: rgba(45, 45, 45, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+    span {
+      font-size: 38px;
+      color: rgba(95, 156, 255, 1);
+    }
+  }
+  .sign-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .sign {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 400;
+      color: rgba(45, 45, 45, 1);
+      margin-right: 30px;
+    }
+    .btn-round {
+      cursor: pointer;
+
+      @include variable.btn-round;
+      color: white;
+      background: rgba(95, 156, 255, 0.9);
+      &:hover {
+        background: rgba(95, 156, 255, 1);
+      }
+    }
+  }
+}
